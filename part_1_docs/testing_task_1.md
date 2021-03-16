@@ -18,9 +18,10 @@ class CardGame:
 
 
   def check_for_ace(self, card):
-  #---> card.value should be assigned 11. Aces can hold value of 1 or 11, this would return True if any ace was found or if any 1 of hearts, 1 of diamonds, 1 of spades, 1 of clubs. 
+  #---> card.value should have == to test value rather than = which assigns a value 
     if card.value = 1:
       return True
+      #---> else needs a colon
     else
       return False
    
@@ -42,5 +43,3 @@ def cards_total(self, cards):
     total += card.value
     #---> line below: should be an fString. i.e. f"You have a total of + {total}
     return "You have a total of" + total
-  
-```
