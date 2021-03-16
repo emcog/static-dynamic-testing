@@ -28,6 +28,7 @@ class CardGame:
 
   #---> line below: typo, dif should be def, comma should separate card1 & card2; 
   dif highest_card(self, card1 card2): 
+  #---> starting from line below, block should be indented
   if card1.value > card2.value:
   #---> line below should return card1
     return card
@@ -35,11 +36,11 @@ class CardGame:
     return card2
   
 
-
+#---> below function is outside of CardGame glass and must be indented
 def cards_total(self, cards):
   #---> line below: total should be initialised with a numeric value, i.e. total = 0
   total
   for card in cards:
     total += card.value
-    #---> line below: should be an fString. i.e. f"You have a total of + {total}
+    #---> line below: should be an fString. i.e. f"You have a total of + {total} and is inside the wrond code block, needs to be tabed out
     return "You have a total of" + total
